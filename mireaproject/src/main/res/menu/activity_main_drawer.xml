@@ -24,5 +24,9 @@
             android:id="@+id/nav_data"
             android:icon="@drawable/baseline_info_24"
             android:title="Favorite industry"/>
+        <item
+            android:id="@+id/nav_player"
+            android:icon="@drawable/baseline_library_music_24"
+            android:title="Player"/>
     </group>
 </menu>
