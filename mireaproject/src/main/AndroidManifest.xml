@@ -11,6 +11,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lesson3"
         android:usesCleartextTraffic="true">
+        <service
+            android:name=".PlayerService"
+            android:enabled="true"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
